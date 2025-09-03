@@ -35,15 +35,25 @@
     "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-03 10:16:45.607730398 UTC",
+    "Validated By": "Finonaa",
     "Active": true,
-    "Updated At": "2025-09-03 10:13:23.542415255 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-03 10:16:45.607735251 UTC",
+    "Active Request ID": "a5610e49-3f29-478a-957e-5dd2bcae38fd",
     "On Chain Address": "f12oqml7cpzmcl3ulqlokkt7t3imjx6tdcpf5ggcq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "a5610e49-3f29-478a-957e-5dd2bcae38fd",
+      "Request Type": "First",
+      "Created At": "2025-09-03 10:16:45.607737834 UTC",
+      "Updated At": "2025-09-03 10:16:45.607739115 UTC",
+      "Active": true,
+      "Allocation Amount": "1073741824 B",
+      "Signers": []
+    }
+  ]
 }
