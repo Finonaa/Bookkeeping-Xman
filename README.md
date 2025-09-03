@@ -31,11 +31,13 @@ Rate Limiting: A single source IP or email domain cannot submit more than a set 
 
 Deterministic Allocation Tiers: Initial allocations are strictly capped based on verification level:
 
-Tier 0 (Unverified/Anonymous): Max 1 TiB. Requires manual review.
+1st: max 5% (≤256 TiB)       2nd: 10%       3rd: 15%       4th: 20%    5th and beyond: 25%
 
-Tier 1 (Verified Identity/Org): Max 200 TiB. Based on successful verification of online presence and a credible story.
+No tranche should exceed 2× the size of the previous one.
+   
+All datasets must be stored in at least two geographic regions.
 
-Tier 2 (Established Client): 256 TiB. For clients with a proven track record of proper DataCap usage with us or verifiable on-chain history.
+Maximum of 8 replicas to ensure efficient use of DC.
 
 Cross-Referencing Tools: We utilize community tools like Filfox, Filscan, and Glif Explorer to check the client's provided addresses for patterns indicative of Sybil behavior (e.g., many small, rapid allocations from different notaries to the same miner set).
 
